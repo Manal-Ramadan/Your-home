@@ -1,0 +1,707 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+        <title>Your Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg  fixed-top z-3">
+        <div class="container-fluid">
+          <img src="images/logo.jpg" class="rounded" width="80px " height="60px" alt="logo">
+          <a class="navbar-brand ms-5 text-light" href="#">your home</a>
+          <div class="vr text-primary"></div>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 mb-2 mb-lg-0 fs-5 text">
+              <li class="nav-item hom me-1">
+                <a class="nav-link active text-light px-3 mx-2" aria-current="page" href="#">Home</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link   px-3  me-2 linke  " href="#">Services</a>
+              
+              </li>
+             
+           
+              <li class="nav-item  ">
+                <a class="nav-link   px-3 me-2 linke"  href="#" >About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light px-3 me-2 linkee"href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 
+                 More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">sign in</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"> Booking</a></li>
+                </ul>
+              </li>
+            </ul>
+             <form class="d-flex ms-auto " role="search">
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary mx-4 px-4 " type="submit">Search</button>
+            </form>
+          </div>
+            <button type="button" class="btn btn-primary px-4 md-mt-5 ms-auto log" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">log in</button> 
+        </nav>
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-primary mb-3">
+                      <h1 class="modal-title fs-5 text-light" id="exampleModalLabel"> LogIn</h1>
+                      <button type="button" class="btn-close  bg-body-secondary" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleDropdownFormEmail2 " class="form-label">Email address</label>
+                          <input type="email " class="form-control border-primary" id="exampleDropdownFormEmail2" placeholder="Enter your Email" name="email">
+                          <p>we'll never share your email with anyone else</p>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                        <input type="password" class="form-control border-primary" id="exampleDropdownFormPassword2" placeholder="Password">
+                        </div>
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                          <label class="form-check-label" for="flexSwitchCheckDefault"> Remeber me</label>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary me-auto" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary ">Log in</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+
+
+
+        
+        
+        
+        
+        
+        <div id="carouselExampleCaptions" class="carousel slide ">
+          <div class="carousel-indicators  ">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active carousel-one ">
+              
+              <div class="carousel-caption ">
+                <h5> Welcome to Booking</h5>
+                <p >Some representative placeholder content for the first slide.</p>
+                <button class="btn btn-primary px-4" type="submit">Visit</button>
+              </div>
+            </div>
+            <div class="carousel-item carousel-two ">
+               <div class="carousel-caption    ">
+                <h5> Welcome to Booking</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                <button class="btn btn-primary px-4" type="submit">Visit</button>
+              </div>
+            </div>
+            <div class="carousel-item carousel-three">
+          
+              <div class="carousel-caption ">
+                <h5> Welcome to Booking</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button class="btn btn-primary px-4" type="submit">Visit</button>
+                
+              </div>
+             
+            </div>
+         
+          </div>
+       
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    
+      
+        <div class="icon-item">
+          <ul class="uicon-item">
+        
+      <li> <a href="#"><i class="fa-brands fa-facebook-f book"></i></a> </li>
+      <li> <a href="#"><i class="fa-brands fa-twitter ter  "></i></a> </li>
+        <li> <a href="#"><i class="fa-brands fa-linkedin link"></i></a> </li>
+          <li><a href="#">  <i class="fa-brands fa-whatsapp app"></i></a> </li>
+            <li><a href="#"><i class="fa-brands fa-instagram gram "></i></a>  </li>
+          </ul>  
+      </div>
+      <div class="card  mb-3 mt-3">
+        <div class="card-body">
+          <h5 class="card-title fs-4">We welcome your visits</h5>
+          <p class="card-text text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, error quaerat ex doloremque fuga iure illum nostrum eum necessitatibus! Quibusdam eligendi eum vitae suscipit quidem eos id aspernatur in error..</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="p-5 mb-2 text-white fs-1 text-center spcial "> Booink In Egypt</div>
+
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Sharm El-Shaikh
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum quaerat, voluptas ipsa cum enim aliquid quidem repellendus rem cumque fugit, neque mollitia culpa impedit nesciunt facilis ea dolor nostrum class. This is the first item's accordion body.</div>
+          <button class="btn btn-primary ms-3" type="submit">Show Me</button>
+          </div>
+
+       
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Hurghada
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body pe-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nam, dolore rem quidem qui temporibus corrupti iure similique atque, laudantium autem eligendi consectetur recusandae quas sunt est totam libero ex?</div>
+            <button class="btn btn-primary ms-3" type="submit">Show Me</button>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Ain Sokhna
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia impedit eos quod voluptatum quaerat placeat error ex id nostrum sequi perferendis dolorem tenetur recusandae ea similique, at tempora nesciunt.</div>
+            <button class="btn btn-primary ms-3" type="submit">Show Me</button>
+          </div>
+        </div>
+      </div>
+
+      <h3 class=" head-card   p-5 text-center mt-5 text-light carde ">
+       Translated to English </h3>
+
+  <div class="card p-2">
+  <div class="card-body border-primary ">
+    <p class="card-text fs-4 text-light">Write here in your own language and then translate it</p>
+   <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="copied">
+ copy
+</button>
+
+
+ 
+ 
+    
+
+<div class="form-floating">
+  <textarea class="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">translat</label>
+</div>
+
+</div>
+  </div>
+      <h3 class=" head-card   p-5 text-center mt-5 text-light carde">
+        Translated into French </h3>
+
+  <div class="card p-2">
+  <div class="card-body border-primary ">
+    <p class="card-text fs-4 text-light">Write here in your own language and then translate it</p>
+   <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="copied">
+ copy
+</button>
+
+
+ 
+ 
+    
+
+<div class="form-floating">
+  <textarea class="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">translat</label>
+</div>
+
+</div>
+  </div>
+      <h3 class=" head-card   p-5 text-center mt-5 text-light carde">
+        Translated into German </h3>
+
+  <div class="card p-2">
+  <div class="card-body border-primary ">
+    <p class="card-text fs-4 text-light">Write here in your own language and then translate it</p>
+   <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="copied">
+ copy
+</button>
+
+
+ 
+ 
+    
+
+<div class="form-floating">
+  <textarea class="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">translat</label>
+</div>
+
+</div>
+  </div>
+
+ 
+
+
+
+  <div class="empty mt-3 "></div>
+  <h3 class=" head-card   p-5 text-center mt-0 text-light spcial fs-1">
+    The best hotels
+     
+  </h3>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-sm-2 g-4 rowe p-5">
+    <div class="col  col-flow  ">
+      <div class="card h-100 ">
+        <img src="images/img1.jpg" class="card-img-top" alt="...">
+        <div class="card-body spcial p-5">
+          <h5 class="card-title ">The St. Regis Cairo </h5>
+          <p class="card-text text-light ppp">Located in Cairo, 3.3 km from Links Square, The St. Regis Cairo is an accommodation with private parking, free access to a fitness service and surveillance..</p>
+         </div>
+      </div> <!-- end card -->
+      <div class="over-flow ">
+        <div class="mt-4">
+          <div class="over-img ">
+        <img src="images/img11.jpg"  width="150px" height="100px" >
+        <img src="images/img12.jpg"   width="150px" height="100px" >
+        <img src="images/img13.jpg "  width="150px"   height="100px" >
+          </div>
+        <div class="zzz " >
+          <input type="datetime-local"     >
+          <button type="button" class="btn btn-secondary  ms-5 ">Book now</button>
+        </div>
+      </div>
+    </div><!-- end over flow -->
+  </div> <!-- end col col flow -->
+    
+
+
+
+
+    <div class="col  col-flow ">
+      <div class="card h-100 ">
+        <img src="images/img2.jpg" class="card-img-top" alt="...">
+        <div class="card-body spcial p-5">
+          <h5 class="card-title">The St. Regis Cairo </h5>
+          <p class="card-text text-light ppp">Located in Cairo, 3.3 km from Links Square, The St. Regis Cairo is an accommodation with private parking, free access to a fitness service and surveillance..</p>
+         </div>
+      </div>
+      <div class="over-flow  ">
+        <div class="over-img mt-4">
+      
+        <img src="images/img21.jpg" width="150px" height="100px" >
+        <img src="images/img22.jpg" width="150px" height="100px">
+        <img src="images/img23.jpg " width="150px"  height="100px" >
+      </div>
+        <div class="zzz">
+          <input type="datetime-local">
+          <button type="button" class="btn btn-secondary  ms-5 ">Book now</button>
+        </div>
+        
+        
+      
+
+      </div><!-- end over flow -->
+    </div>
+    <div class="col  col-flow ">
+      <div class="card h-100 ">
+        <img src="images/img3.jpg" class="card-img-top" alt="...">
+        <div class="card-body spcial p-5">
+          <h5 class="card-title ">       Dusit Thani Lake View Cairo  </h5>
+          <p class="card-text text-light ppp">The resort-style Dusit Thani includes a green area with waterfalls, wide tree-lined streets, lakes and a river. This 5-star hotel is located in New Cairo.</p>
+          
+        </div>
+      </div>
+      <div class="over-flow ">
+        <div class="over-img mt-4">
+        <img src="images/img31.jpg" width="150px"  height="100px" >
+        <img src="images/img32.jpg" width="150px"  height="100px" >
+        <img src="images/img33.jpg " width="150px" height="100px"  >
+        </div>
+        <div class="zzz">
+          <input type="datetime-local">
+          <button type="button" class="btn btn-secondary ms-5  ">Book now</button>
+        </div>
+
+      </div><!-- end over flow -->
+    </div>
+    <div class="col  col-flow">
+      <div class="card h-100">
+        <img src="images/img4.jpg" class="card-img-top" alt="...">
+        <div class="card-body spcial p-5">
+          <h5 class="card-title ">The St. Regis Almasa Hotel, Cairo </h5>
+          <p class="card-text text-light ppp">The St Regis Almasa, Cairo is located in the New Administrative Capital, 59 km from the city centre, and has an artificial beach area. This 5-star hotel offers free WiFi, and the hotel has a children's playground and a modern club.</p>
+         </div>
+      </div>
+      <div class="over-flow  ">
+        <div class="over-img mt-4">
+        <img src="images/img41.jpg" width="150px" height="100px" >
+        <img src="images/img42.jpg" width="150px"  height="100px" >
+        <img src="images/img43.jpg " width="150px"  height="100px" >
+        </div>
+        <div class="zzz">
+          <input type="datetime-local" >
+          <button type="button" class="btn btn-secondary ms-5 ">Book now</button>
+        </div>
+
+      </div><!-- end over flow -->
+    </div>
+    <div class="col  col-flow">
+      <div class="card h-100">
+        <img src="images/img5.jpg" class="card-img-top" alt="...">
+        <div class="card-body spcial p-5">
+          <h5 class="card-title">The Nile Ritz-Carlton Hotel and Casino, Cairo</h5>
+          <p class="card-text text-light ppp">The heart of the Nile Ritz-Carlton Cairo Hotel and Casino is located in the heart of Cairo, between the Nile River and Tahrir Square, and near the Egyptian Museum</p>
+         </div>
+      </div>
+      <div class="over-flow   ">
+        <div class="over-img mt-4">
+        <img src="images/img51.jpg" width="150px" height="100px" >
+        <img src="images/img52.jpg" width="150px"  height="100px" >
+        <img src="images/img53.jpg " width="150px"  height="100px"  >
+        </div>
+        <div class="zzz">
+          <input type="datetime-local">
+          <button type="button" class="btn btn-secondary ms-5 ">Book now</button>
+        </div>
+
+      </div><!-- end over flow -->
+    </div>
+    <div class="col  col-flow">
+      <div class="card h-100 " >
+        <img src="images/img6.jpg" class="card-img-top" alt="...">
+        <div class="card-body spcial p-5">
+          <h5 class="card-title">Le Meridien Cairo Airport Opens in a new window</h5>
+          <p class="card-text text-light ppp"> Connected to Cairo Airport Terminal 3 via a pedestrian bridge, Le Meridien Cairo Airport offers a heated outdoor pool and a fitness centre. Free Wi-Fi access is also available. </p>
+         </div>
+      </div>
+      <div class="over-flow  ">
+        <div class="over-img mt-4">
+        <img src="images/img61.jpg" width="150px"   height="100px" >
+        <img src="images/img62.jpg" width="150px"  height="100px" >
+        <img src="images/img63.jpg " width="150px"   height="100px" >
+        </div>
+        <div class="zzz">
+        <input type="datetime-local">
+        <button type="button" class="btn btn-secondary  ms-5">Book now</button>
+      </div>
+
+      </div><!-- end over flow -->
+    </div>
+  </div>
+  <div class="empty2 mt-5">
+
+  </div>
+  <h3 class=" head-card   p-5 text-center mt-0 text-light spcial fs-1">
+    Wonderful destinations
+     
+  </h3>
+  
+   
+  <div class="section p-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+    <div class="card-one   ">
+      <div class="over-lay">
+      <h3 class="hcaed text-light ms-3">Book in Egypt</h3>
+      <span class="spacard text-light ms-3">100 EGP - 6,000 EGP+</span>
+      <div class="card-foot d-flex flex-column ms-3">
+        <img src="images/egypt.jpg" width="100px" height="130px">
+        <span class="spafoot text-light">Your budget (per night)</span>
+
+      </div><!-- card-foot -->
+    </div><!-- end over lay -->
+    </div><!-- end card-one -->
+    </div>
+  
+    <div class="col">
+    <div class="card-two   ">
+
+      <div class="over-lay"> 
+      <h3 class="hcaed text-light ms-3">Book in Makkah</h3>
+      <span class="spacard text-light ms-3">600 SAR - 11,000 SAR+</span>
+      <div class="card-foot d-flex flex-column ms-3 ">
+        <img src="images/maka.jpg" width="100px" height="130px">
+        <span class="spafoot text-light ">Your budget (per night)</span>
+
+      </div><!-- card-foot -->
+    </div><!-- end overlay -->
+
+    </div><!-- end card-one -->
+    </div>
+    <div class="col">
+    <div class="card-three  ">
+      <div class="over-lay">
+      <h3 class="hcaed text-light ms-3">Book in Doubi</h3>
+      <span class="spacard text-light ms-3">400 AED - 9,000 AED+</span>
+      <div class="card-foot d-flex flex-column mb-3">
+        <img src="images/dobi.jpg" width="100px" height="130px">
+        <span class="spafoot text-light">Your budget (per night)</span>
+
+      </div><!-- card-foot -->
+    </div><!-- end over lay -->
+    </div><!-- end card-one -->
+    </div>
+    </div>
+    
+
+  </div><!-- end section -->
+ 
+   
+
+ 
+<h3 class=" head-card   p-5 text-center mt-5 text-light spcial fs-1">
+  The most famous hotels in the Arab world
+   
+</h3>
+<div class="container">
+<div class="card mb-3 mt-3 cardee "style="max-width:100%;"  ;>
+  <div class="row g-0"  style="direction: rtl";>
+    <div class="col-md-4 ggg">
+      <img src="images/back9.jpg" class="img-fluid h-100 imge " alt="...">
+    </div>
+    <div class="col-md-8  ">
+      <div class="card-body p-5 carde "  style="direction: ltr";>
+        <h5 class="card-title fw-bold">Kempinski Hotel</h5>
+        <p class="card-text "><small class="text-white-50">Open 24 hours + holidays</small></p>
+        <hr class="border border-light border-1 opacity-75" style="max-width:180px ">
+        <p class="card-text text-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eaque reiciendis, perferendis minima dignissimos ipsum accusantium quasi! Consectetur incidunt iste unde sunt ab. Illum dolore quaerat veritatis reiciendis vero eum..</p>
+        <div class="bot">
+          <button type="button" class="btn btn-primary">Reservation</button>
+          <button type="button" class="btn btn-secondary">Enquiry</button>
+          <button type="button" class="btn btn-outline-primary ">Their page</button>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3 mt-3 cardee "style="max-width:100%;"  ;>
+  <div class="row g-0"  >
+    <div class="col-md-4 ggg">
+      <img src="images/back10.jpg" class="img-fluid h-100 imgee " alt="...">
+    </div>
+    <div class="col-md-8  ">
+      <div class="card-body p-5 carde "   >
+        <h5 class="card-title fw-bold">Kempinski Nile Hotel</h5>
+        <p class="card-text "><small class="text-white-50">Open 24 hours + holidays</small></p>
+        <hr class="border border-light border-1 opacity-75" style="max-width:180px ">
+        <p class="card-text text-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eaque reiciendis, perferendis minima dignissimos ipsum accusantium quasi! Consectetur incidunt iste unde sunt ab. Illum dolore quaerat veritatis reiciendis vero eum..</p>
+        <div class="bot">
+          <button type="button" class="btn btn-primary">Reservation</button>
+          <button type="button" class="btn btn-secondary">Enquiry</button>
+          <button type="button" class="btn btn-outline-primary pag">Their page</button>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3 mt-3   cardee"style="max-width:100%;"  ;>
+  <div class="row g-0 "  style="direction: rtl";>
+    <div class="col-md-4 ggg">
+      <img src="images/back11.jpg" class="img-fluid h-100 imge" alt="...">
+    </div>
+    <div class="col-md-8  ">
+      <div class="card-body p-5 carde "  style="direction: ltr";>
+        <h5 class="card-title fw-bold">Cleopatra Luxury Hotel</h5>
+        <p class="card-text "><small class="text-white-50">Open 24 hours + holidays</small></p>
+        <hr class="border border-light border-1 opacity-75" style="max-width:180px ">
+        <p class="card-text text-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eaque reiciendis, perferendis minima dignissimos ipsum accusantium quasi! Consectetur incidunt iste unde sunt ab. Illum dolore quaerat veritatis reiciendis vero eum..</p>
+        <div class="bot">
+          <button type="button" class="btn btn-primary">Reservation</button>
+          <button type="button" class="btn btn-secondary">Enquiry</button>
+          <button type="button" class="btn btn-outline-primary ">Their page</button>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3 mt-3 cardee "style="max-width:100%;"   ;>
+  <div class="row g-0" >
+    <div class="col-md-4 ggg">
+      <img src="images/back8.jpg" class="img-fluid h-100 imgee " alt="...">
+    </div>
+    <div class="col-md-8  ">
+      <div class="card-body p-5 carde "  >
+        <h5 class="card-title fw-bold">Hotel Stella Di Mare</h5>
+        <p class="card-text "><small class="text-white-50">Open 24 hours + holidays</small></p>
+        <hr class="border border-light border-1 opacity-75" style="max-width:180px ">
+        <p class="card-text text-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eaque reiciendis, perferendis minima dignissimos ipsum accusantium quasi! Consectetur incidunt iste unde sunt ab. Illum dolore quaerat veritatis reiciendis vero eum..</p>
+        <div class="bot">
+        <button type="button" class="btn btn-primary">Reservation</button>
+        <button type="button" class="btn btn-secondary">Enquiry</button>
+        <button type="button" class="btn btn-outline-primary ">Their page</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<h3 class=" head-card   p-5 text-center mt-5 text-light spcial fs-1">
+  You can contact us
+   
+</h3>
+<div class="container section-icon row row-cols-2 row-cols-md-4 g-4   mt-4 text-center m-auto ">
+  <div class="col">
+  <div class="icon-one object-fit-none border rounded p-3">
+    <h3 class="hicon text-light">Facebook</h3>
+    <a href="#" ><i class="fa-brands fa-facebook-f book  mt-3 fs-1 fw-bold  h-50"></i></a>
+    <p class="praicon text-light fs-5 mt-3"> Click Here</p>
+
+  </div><!-- iconone -->
+</div>
+<div class="col">
+  <div class="icon-one object-fit-none border rounded p-3">
+    <h3 class="hicon text-light"> Twitter</h3>
+    <a href="#" ><i class="fa-brands fa-twitter ter   mt-3 fs-1 fw-bold  h-50"></i></a>
+    <p class="praicon text-light fs-5 mt-3"> Click Here</p>
+  </div><!-- iconone -->
+</div>
+<div class="col">
+  <div class="icon-one object-fit-none border rounded p-3">
+    <h3 class="hicon text-light">Whatsapp</h3>
+    <a href="#"><i class="fa-brands fa-whatsapp app  mt-3 fs-1 fw-bold  h-50 "></i></a>
+    <p class="praicon text-light fs-5 mt-3"> Click Here</p>
+  </div><!-- iconone -->
+</div>
+<div class="col">
+  <div class="icon-one object-fit-none border rounded p-3">
+    <h3 class="hicon text-light">Instgram</h3>
+    <a href="#" ><i class="fa-brands fa-instagram gram  mt-3 fs-1 fw-bold  h-50"></i></a>
+    <p class="praicon text-light fs-5 mt-3"> Click Here</p>
+  </div><!-- iconone -->
+</div>
+
+</div><!-- end container -->
+
+
+
+
+<div class="footer p-4  row row-cols-1 row-cols-md-2 row-cols-lg-3 m-auto mt-5  ">
+ 
+ <div class="col ">
+   
+  <div class="div1  ">
+    <hr class="border border-primary border-1 opacity-75 ">
+    <div class="log-foot text-center ">
+      <img src="images/bbb.jpg " width="100px" height="100px" class="rounded-circle">
+      <span class="fs-5 fw-bold text-light ms-3">Lorem ipsum dolor sit.</span>
+    </div><!-- end log foot -->
+    <hr class="border border-primary border-1 opacity-75  bor">
+    <div class="list-foot ms-5 fs-5 mt-4">
+      <ul>
+        <a href="#"><li >Lorem, ipsum lorem.</li></a> 
+        <a href="#"><li >Lorem, ipsum lorem.</li></a> 
+        <a href="#"><li >Lorem, ipsum lorem.</li></a>
+      </ul>
+
+    </div><!-- end list-foot -->
+  </div><!-- end div1 -->
+</div><!-- end col -->
+
+<div class="col">
+  <div class="div1  ">
+    <hr class="border border-primary border-1 opacity-75 ">
+    <div class="log-foot text-center ">
+      <img src="images/back5.jpg " width="100px" height="100px" class="rounded-circle">
+      <span class="fs-5 fw-bold text-light ms-3">Lorem ipsum dolor sit.</span>
+    </div><!-- end log foot -->
+    <hr class="border border-primary border-1 opacity-75 bor">
+    <div class="list-foot ms-5 fs-5 mt-4">
+      <ul>
+        <a href="#"><li >Lorem, ipsum lorem.</li></a> 
+        <a href="#"><li  >Lorem, ipsum lorem.</li></a> 
+        <a href="#"><li  >Lorem, ipsum lorem.</li></a>
+      </ul>
+
+    </div><!-- end list-foot -->
+  </div><!-- end div1 -->
+</div><!-- end col -->
+
+<div class="col">
+  <div class="div1  ">
+    <hr class="border border-primary border-1 opacity-75  ">
+    <div class="log-foot text-center ">
+      <img src="images/island.jpg " width="100px" height="100px" class="rounded-circle">
+      <span class="fs-5 fw-bold text-light ms-3">Lorem ipsum dolor sit.</span>
+    </div><!-- end log foot -->
+    <hr class="border border-primary border-1 opacity-75  bor">
+    <div class="list-foot ms-5 fs-5 mt-4">
+      <ul>
+       <a href="#"><li  >Lorem, ipsum lorem.</li></a> 
+       <a href="#"><li  >Lorem, ipsum lorem.</li></a> 
+       <a href="#"><li  >Lorem, ipsum lorem.</li></a>
+       </ul>
+
+  
+
+  </div><!-- end list-foot -->
+</div><!-- end div1 -->
+ 
+</div><!-- end col -->
+<hr class="border border-primary border-1 opacity-75 my-5 w-100">
+ <p class="pra-foot text-center  m-auto fs-5 text-light " >COPYRIGHT &copy; RIGHT RESERVED BY COLORLIB  <span>Created By manal Ramadan</span></p>
+ 
+</div><!-- end footer -->
+
+ 
+
+
+ 
+  
+ 
+
+ 
+ 
+ 
+
+  
+
+        
+
+
+
+
+
+ 
+ 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+        <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+ 
+
+      
+    </body>
+</html>
