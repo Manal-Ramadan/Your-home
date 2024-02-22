@@ -48,13 +48,13 @@
 
 @media(max-width:576px) {
   .over-flow .btn{
-    margin-top: 0px;
+    margin:10px 50px 0px 0px;
   }
    .over-flow .over-img {
     margin-top: 50px;
   }
   .over-flow .zzz {
-    margin-top: 20px;
+    margin-top: -8px;
   }
 .ggg img{
 clip-path: none;
@@ -67,9 +67,13 @@ clip-path: none;
     flex-direction: row;
     justify-content: space-evenly;
   }
-  
  
-}
+  .bot button{
+    padding: 2px;
+    margin: 3px;
+  }
+  
+  }
 .navbar{
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -118,8 +122,8 @@ background-color: #072147;
   .uicon-item{
     list-style: none;
  
-    right: 0px;
-    bottom: 200px;
+    right: 10px;
+    bottom: 150px;
     position: fixed;
     z-index: 20;
   }
@@ -264,6 +268,7 @@ background-color: #072147;
   background-color: rgba(0, 0, 0, 0.747);
   border-radius: 15px;
   transition: 0.9s;
+  cursor: pointer;
  }
  .over-lay:hover img{
   transform: scale(1.1);
@@ -355,7 +360,7 @@ background-color: #072147;
  .pra-foot span{
   font-family: 'Lobster Two', sans-serif;;
   display: block;
-  background:-webkit-linear-gradient(  #b8cadd, #647eff ,white);
+  background:-webkit-linear-gradient(  #b8cadd, #d9dce9 ,white);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -364,10 +369,7 @@ background-color: #072147;
  .div1 img {
   box-shadow:0 0 5px #2b6bca,0 0 5px #2b6bca,0 0 5px #2b6bca ;
  }
- 
- 
-  body{
-   
+ body{
    overflow-x: hidden;
  }
   
